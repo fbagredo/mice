@@ -1,6 +1,6 @@
 import java.awt.*;
 
-class mouse {
+class Mouse {
 
     public static void main (String ... args){
 
@@ -11,6 +11,8 @@ class mouse {
 
             // Move the cursor
             Robot robot = new Robot();
+
+            // Move the cursor
             while (true) {
                 xCoord++;
                 yCoord++;
